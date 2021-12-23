@@ -82,6 +82,7 @@ article div a {
 }
 
 div.button {
+    margin-top: 20px;
     justify-content: right;
     align-self: flex-end;
 }
@@ -93,7 +94,7 @@ article.what img {
 }
 
 ul {
-    margin-left: 8%;
+    margin: 15px 0 0 50px;
 }
 
 footer {
