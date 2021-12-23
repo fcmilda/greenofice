@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("pattern.png");
+}
+
+header {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    max-width: 800px;
+    height: 70px;
+    background: #B2CB16;
+    /* horizontalus lygiavimas justify-content */
+    justify-content:space-between;
+    /* vertikalus lygiavimas align-items */
+    align-items: center;
+}
+
+.nav {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 160px;
+}
+
+main {
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    max-width: 800px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+article {
+    text-align: justify;
+    
+}
+
+article.who{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 2;
+    max-width: 300px;
+    margin-right: 15px;
+}
+
+article.what {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 3;
+    max-width: 480px;
+}
+
+article div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B2CB16;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+div.button {
+    justify-content: right;
+    align-self: flex-end;
+}
+
+article.what img {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+}
+
+ul {
+    margin-left: 8%;
+}
+
+footer {
+    text-align: center;
+    color: rgb(36, 60, 36);
+    padding: 10px;
+}
+
